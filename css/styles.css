@@ -1,0 +1,187 @@
+@font-face {
+    font-family: pepsi;
+    src: url(../fonts/pepsi.ttf);
+}
+
+body {
+    background: #2f3943;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0);
+}
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #c5fe00;
+}
+
+.navbar-brand {
+    font-family: pepsi;
+    font-size: 1.6em;
+    color: #c5fe00;
+    letter-spacing: 0.04em;
+    background: linear-gradient(180deg, rgba(238, 242, 57, 1) 0%, rgba(197, 254, 0, 1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+footer h5 {
+    color: #fff;
+}
+
+.nav-link.text-muted:hover {
+    color: #c5fe00 !important;
+}
+
+#youtube_video {
+    background: #9098a1;
+}
+
+#footer-logo {
+    filter: grayscale(100%)
+}
+
+#footer-logo:hover {
+    filter: grayscale(0%)
+}
+
+.btn-primary {
+    background: #c5fe00;
+    color: #2f3943;
+    border-color: #c5fe00;
+}
+
+.btn-primary:hover {
+    background: rgba(238, 242, 57, 1);
+    color: rgb(65, 77, 91);
+    border-color: rgba(238, 242, 57, 1);
+}
+
+.btn-primary:active {
+    background: #9eca00 !important;
+    color: #2f3943 !important;
+    border-color: #9eca00 !important;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.certAnimation {
+    animation-name: fadeInAnimation;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+#mainView {
+    height: 100vh;
+}
+
+#matrix {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+#name {
+    color: #c5fe00;
+}
+
+#introText {
+    text-shadow: 0 0 5px #000;
+}
+
+#introText a {
+    text-shadow: none; 
+    box-shadow: 0px 0px 2px 0px #000000;
+}
+
+#meImage {
+    box-shadow: 0px 0px 2px 0px #000000;
+}
+
+@media only screen and (max-width: 992px) {
+    #meImage {
+        margin-bottom: 1em;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #introLead {
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .navbar-brand {
+        color: #c5fe00;
+        background-clip: border-box;
+        background: none;
+        -webkit-text-fill-color: #c5fe00;
+    }
+}
+
+#certDiv {
+    border-top: 1px solid rgb(65, 77, 91);
+    padding-top: 1.5em;
+}
+
+#ytDiv {
+    border-top: 1px solid rgb(65, 77, 91);
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.text-bg-primary {
+    background:rgb(65, 77, 91) !important;
+    color:rgba(197, 254, 0, 1) !important;
+    width: 1.8em;
+    height: 1.8em;
+}
+
+.link-primary {
+    text-decoration: none;
+    color:rgba(197, 254, 0, 1) !important;
+}
+
+.link-primary:hover {
+    color:rgba(238, 242, 57, 1) !important;
+}
+/*
+     FILE ARCHIVED ON 01:55:25 Jan 17, 2023 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:22:26 Jun 02, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.763
+  exclusion.robots: 0.09
+  exclusion.robots.policy: 0.079
+  esindex: 0.01
+  cdx.remote: 18.602
+  LoadShardBlock: 124.758 (3)
+  PetaboxLoader3.datanode: 103.528 (4)
+  PetaboxLoader3.resolve: 122.983 (2)
+  load_resource: 140.174
+*/
